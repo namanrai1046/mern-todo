@@ -26,6 +26,12 @@
       "react-app/jest"
     ]
   },
+  "husky": {
+    "hooks":{
+      "pre-commit": "npm run test:no-watch",
+      "pre-push":""                                                                                                                                               
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
