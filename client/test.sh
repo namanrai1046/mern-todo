@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 cd /task/client
 npm install 
 npm install husky
